@@ -1,7 +1,7 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 import streamlit as st
 
-llm = ChatGoogleGenerativeAI(model = "gemini-2.0-flash-exp",api_key = "AIzaSyB34Cgg2dUnIR1WwK2TYquLV0tpFvvZTOA" )
+llm = ChatGoogleGenerativeAI(model = "gemini-2.0-flash-exp",api_key = "you are API peste here" )
 
 st.title("generative AI")
 user_input = st.text_input ("wrinte some")
